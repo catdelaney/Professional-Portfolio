@@ -1,0 +1,112 @@
+/* Header Bar */
+header{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 45px;
+    background-color: peachpuff;
+    color: peru;
+    text-align: center;
+    margin: 15px;
+}
+
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: lightslategray;
+}
+  
+header nav ul a:hover {
+    color: darkred;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* Website Background */
+body{
+    margin: 0;
+    background-color: peachpuff; 
+}
+
+.hero-image{
+    background-image: url(wallpaper.png);
+    height: 45%;
+    position: relative;
+    background-position: center;
+    color: peru;
+    text-decoration: none;
+}
+
+.hero-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 20%;
+    font-size: 20px;
+    color: lightslategrey;
+    text-align: center;
+    margin: 15px;
+}
+
+.portfolioSection{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+
+.imageCard{
+    width: 99%;
+}
+
+.projectImages{
+    padding: 2%;
+    border: 5px solid peru;
+    width: 30%;
+}
+
+/*Button*/
+.button{
+    background-color: white;
+    color: peru;
+    border-color: peru;
+    border-width: medium;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+/* Main Page Fonts */
+main,
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: lightslategrey;
+    margin: 10px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.contactMe{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: peru;
+    color:azure;
+    text-align: center;
+}
