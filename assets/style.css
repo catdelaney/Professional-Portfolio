@@ -8,6 +8,13 @@ header{
     margin: 15px;
 }
 
+.selfie{ 
+    padding: none;
+    width: 20%;
+    height: 25%;
+    align: center;
+}
+
 header nav {
     margin: 7px 0;
 }
@@ -28,7 +35,7 @@ header nav ul a {
 }
   
 header nav ul a:hover {
-    color: darkred;
+    color: peru;
     border-radius: 15px;
     text-shadow: none;
 }
@@ -37,15 +44,6 @@ header nav ul a:hover {
 body{
     margin: 0;
     background-color: peachpuff; 
-}
-
-.hero-image{
-    background-image: url(wallpaper.png);
-    height: 45%;
-    position: relative;
-    background-position: center;
-    color: peru;
-    text-decoration: none;
 }
 
 .hero-text{
@@ -74,17 +72,6 @@ body{
     text-align: center;
 }
 
-/*Button*/
-.button{
-    background-color: white;
-    color: peru;
-    border-color: peru;
-    border-width: medium;
-    font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 10px;
-}
-
 /* Main Page Fonts */
 main,
 h3{
@@ -100,7 +87,8 @@ p{
 
 .contactMe{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    color: lightslategray;
 }
 
 /* Footer */
