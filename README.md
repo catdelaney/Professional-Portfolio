@@ -1,4 +1,4 @@
-# UoT-Module-2-Challenge - Portfolio
+# Professional Portfolio
 
 ## Description
 As a current student and future employee I wanted to create a portfolio that could be viewed by a potential employer to display my talents to them.
